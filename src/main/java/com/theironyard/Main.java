@@ -17,12 +17,15 @@ public class Main {
             different units.
          */
         // todo: convert something
+        System.out.println(Converter.convert(123, Unit.CENTIMETER, Unit.FOOT));
 
 
         // todo: convert something else
+        System.out.println(Converter.convert(32.12, Unit.MILE, Unit.KILOMETER));
 
 
         // todo: convert yet another thing
+        System.out.println(Converter.convert(0.25, Unit.INCH, Unit.MILLIMETER));
 
 
     }
